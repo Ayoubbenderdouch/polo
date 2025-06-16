@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#667eea">
+    <meta name="description" content="POLO بولو - Sucette glacée & Boissons à Tiaret. Découvrez nos produits rafraîchissants depuis 1974. Contact: 05 50063036">
+    <meta name="keywords" content="POLO, بولو, sucette glacée, boissons, Tiaret, Algeria, ice lollies, beverages">
+    <meta name="author" content="POLO بولو">
+    <title>POLO بولو - Sucette glacée & Boissons</title>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts for Arabic -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="ice-cube">
+                <i class="fas fa-ice-cream"></i>
+            </div>
+            <div class="loading-text">
+                <span>P</span>
+                <span>O</span>
+                <span>L</span>
+                <span>O</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="ar">AR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="navbar">
+        <div class="nav-container">
+            <div class="logo-wrapper">
+                <img src="images/logo.png" alt="Polo Logo" class="nav-logo">
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="menu-content">
+            <ul class="menu-list">
+                <li><a href="#home"><i class="fas fa-home"></i> <span data-translate="menu-home">Accueil</span></a></li>
+                <li><a href="#story"><i class="fas fa-book"></i> <span data-translate="menu-story">Histoire</span></a></li>
+                <li><a href="#products"><i class="fas fa-ice-cream"></i> <span data-translate="menu-products">Produits</span></a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> <span data-translate="menu-contact">Contact</span></a></li>
+            </ul>
+            <div class="menu-footer">
+                <div class="social-icons">
+                    <a href="https://facebook.com/PoloBoissons" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://maps.app.goo.gl/3qWVw84XvpH1ty5u5?g_st=iw" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+                    <a href="mailto:poloboissons@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:0550063036"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/img1.png" alt="Polo Hero" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-title-img">
+                <img src="images/img1" alt="FREEZE STYLE" class="freeze-style-logo">
+            </div>
+            <p class="hero-subtitle" data-translate="hero-subtitle">Sucette glacée 🧊 & Boissons - La Fraîcheur Ultime Depuis 50 Ans</p>
+            <button class="cta-button">
+                <span data-translate="cta-discover">Découvrir</span>
+                <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+        <div class="hero-decorations">
+            <div class="floating-icon" style="--delay: 0s"><i class="fas fa-snowflake"></i></div>
+            <div class="floating-icon" style="--delay: 1.5s"><i class="fas fa-ice-cream"></i></div>
+            <div class="floating-icon" style="--delay: 3s"><i class="fas fa-star"></i></div>
+            <div class="floating-icon" style="--delay: 4.5s"><i class="far fa-snowflake"></i></div>
+            <div class="floating-icon" style="--delay: 6s"><i class="fas fa-icicles"></i></div>
+        </div>
+    </section>
+
+    <!-- Anniversary Section -->
+    <section class="anniversary" id="story">
+        <div class="container">
+            <div class="anniversary-header">
+                <h2 class="section-title">
+                    <span class="title-number">50</span>
+                    <span class="title-text" data-translate="anniversary-title">ans de POLO</span>
+                </h2>
+            </div>
+            
+            <div class="anniversary-content">
+                <div class="story-card">
+                    <div class="card-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3 data-translate="story-title">Une Histoire Glacée</h3>
+                    <p data-translate="story-text">La sucette à glacer Polo fête ses <strong>50 ans en 2024</strong> ! A cette occasion Polo passe en Mode FreezeStyle. La marque iconique pour toutes les générations réaffirme sa culture <strong>STREET</strong> et <strong>POP</strong> à travers une nouvelle fraîcheur d'esprit !</p>
+                </div>
+
+                <div class="story-card">
+                    <div class="card-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 data-translate="design-title">Nouveau Design</h3>
+                    <p data-translate="design-text">Polo adopte un nouveau design avec un logo et des packagings rénovés, pour une approche graphique plus fraîche, fun et colorée. Redécouvrez Polo à travers une grande campagne de communication incluant une publicité vidéo diffusée sur les plateformes de replay TV.</p>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label" data-translate="stat-years">Ans d'histoire</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="1000000">0</div>
+                    <div class="stat-label" data-translate="stat-units">Unités vendues</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="6">0</div>
+                    <div class="stat-label" data-translate="stat-flavors">Saveurs uniques</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">
+                <span data-translate="products-title">La Gamme Glacée</span>
+                <i class="fas fa-ice-cream title-icon"></i>
+            </h2>
+
+            <p class="products-intro" data-translate="products-intro">
+                POLO بولو - La référence incontournable des produits rafraîchissants. Découvrez nos sucettes glacées aux saveurs délicieuses, prêtes à consommer pour une fraîcheur instantanée!
+            </p>
+
+            <div class="products-grid">
+                <div class="product-card" data-flavor="fraise">
+                    <div class="product-badge" data-translate="badge-frozen">Glacée</div>
+                    <div class="product-image-wrapper">
+                        <img src="images/img2.png" alt="Fraise" class="product-image">
+                        <div class="product-glow"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name" data-translate="flavor-strawberry">Fraise</h3>
+                        <p class="product-description" data-translate="desc-strawberry">Le goût classique et délicieux des fraises fraîches</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-flavor="orange">
+                    <div class="product-badge" data-translate="badge-frozen">Glacée</div>
+                    <div class="product-image-wrapper">
+                        <img src="images/img3.png" alt="Orange" class="product-image">
+                        <div class="product-glow"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name" data-translate="flavor-bubblegum">Bubble Gum Berry</h3>
+                        <p class="product-description" data-translate="desc-bubblegum">Un mélange unique de bubble gum et fruits rouges</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-flavor="citron">
+                    <div class="product-badge" data-translate="badge-frozen">Glacée</div>
+                    <div class="product-image-wrapper">
+                        <img src="images/img4.png" alt="Citron" class="product-image">
+                        <div class="product-glow"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name" data-translate="flavor-lemon">Citron</h3>
+                        <p class="product-description" data-translate="desc-lemon">L'acidité parfaite pour les journées chaudes</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-flavor="tropical">
+                    <div class="product-badge" data-translate="badge-frozen">Glacée</div>
+                    <div class="product-image-wrapper">
+                        <img src="images/img5.png" alt="Tropical" class="product-image">
+                        <div class="product-glow"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name" data-translate="flavor-tuttifrutti">Tutti Frutti</h3>
+                        <p class="product-description" data-translate="desc-tuttifrutti">Un festival de saveurs fruitées tropicales</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-flavor="cola">
+                    <div class="product-badge" data-translate="badge-frozen">Glacée</div>
+                    <div class="product-image-wrapper">
+                        <img src="images/img6.png" alt="Cola" class="product-image">
+                        <div class="product-glow"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name" data-translate="flavor-cottoncandy">Barbe à Papa</h3>
+                        <p class="product-description" data-translate="desc-cottoncandy">La douceur sucrée de la barbe à papa</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-flavor="menthe">
+                    <div class="product-badge" data-translate="badge-frozen">Glacée</div>
+                    <div class="product-image-wrapper">
+                        <img src="images/img7.png" alt="Menthe" class="product-image">
+                        <div class="product-glow"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name" data-translate="flavor-mint">Menthe</h3>
+                        <p class="product-description" data-translate="desc-mint">La fraîcheur intense de la menthe glacée</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span data-translate="contact-title">Contactez-nous</span>
+                <i class="fas fa-phone title-icon"></i>
+            </h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="company-name">
+                        <h3>POLO بولو</h3>
+                        <p data-translate="company-desc">Sucette glacée & Boissons</p>
+                    </div>
+                    
+                    <div class="contact-grid">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4 data-translate="phone-label">Téléphone</h4>
+                                <a href="tel:0550063036">05 50063036</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:poloboissons@gmail.com">poloboissons@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Facebook</h4>
+                                <a href="https://facebook.com/PoloBoissons" target="_blank">Polo Boissons</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4 data-translate="location-label">Localisation</h4>
+                                <a href="https://maps.app.goo.gl/3qWVw84XvpH1ty5u5?g_st=iw" target="_blank" data-translate="view-map">Voir sur la carte</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.123456789!2d1.3166667!3d35.3166667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDE5JzAwLjAiTiAxwrAxOScwMC4wIkU!5e0!3m2!1sfr!2sdz!4v1234567890"
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <a href="https://maps.app.goo.gl/3qWVw84XvpH1ty5u5?g_st=iw" target="_blank" class="map-overlay">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span data-translate="open-maps">Ouvrir dans Google Maps</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-translate="cta-title">Prêt pour une explosion de fraîcheur?</h2>
+                <p data-translate="cta-subtitle">Contactez-nous pour commander nos produits</p>
+                <a href="tel:0550063036" class="cta-button-primary">
+                    <span data-translate="cta-call-now">Appelez maintenant</span>
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="Polo" class="footer-logo">
+                    <h3 class="footer-title">POLO بولو</h3>
+                    <p data-translate="footer-tagline">Sucette glacée & Boissons depuis 1974</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> 05 50063036</p>
+                        <p><i class="fas fa-envelope"></i> poloboissons@gmail.com</p>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="https://facebook.com/PoloBoissons" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://maps.app.goo.gl/3qWVw84XvpH1ty5u5?g_st=iw" target="_blank" title="Location"><i class="fas fa-map-marker-alt"></i></a>
+                    <a href="mailto:poloboissons@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:0550063036" title="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Polo. <span data-translate="footer-rights">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Magic Button -->
+    <button class="magic-button" id="magicButton">
+        <i class="fas fa-magic"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
